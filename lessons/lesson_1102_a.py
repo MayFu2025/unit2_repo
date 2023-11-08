@@ -26,7 +26,7 @@ def fromdecimal2(num:int, base:int)->str:
     while num > base:
         rem = num%base
         if rem >= 10:
-            rem=d[rem]
+            rem= alpha[rem-10]
         result = str(rem) + result
         num = num//base
     result += str(num) + result
