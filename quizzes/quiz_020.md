@@ -1,8 +1,8 @@
-# Quiz 019
+# Quiz 020
 <hr>
 
 ### Prompt
-![](images/quiz_019_slide.png)
+![](images/quiz_020_slide.png)
 *fig. 1* **Screenshot of quiz slides**
 
 ### Solution
@@ -11,9 +11,9 @@
 ```
 
 ### Evidence
-![](images/quiz_019_evidence.png)
+![](images/quiz_020_evidence.png)
 *fig. 2* **Screenshot of output in console**
 
 ### Boolean Logic Problem
-![](images/quiz_019_bool.png)
+![](images/quiz_020_bool.png)
 *fig. 3* **Working for given boolean logic problem**
