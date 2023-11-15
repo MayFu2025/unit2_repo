@@ -22,7 +22,7 @@ def fromdecimal(num: int, base: int) -> str:
     return result
 
 # Example usage:
-print(fromdecimal(162, 16))
+print(fomdecimal(162, 16))
 
 
 # d = {
