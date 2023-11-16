@@ -20,6 +20,7 @@ def produce(n:int, m:int, s:int)-> tuple:
 plt.style.use('ggplot')
 y, x = produce(n=10, m=5, s=2)
 plt.plot(x,y, color='r', marker="+")
+plt.title("May's Repository", fontsize=5, loc="right")
 plt.xlabel("x", fontsize=15)
 plt.ylabel("$y =x^{1/2*{(m/s)^2}}$", fontsize=15)
 plt.show()
@@ -27,9 +28,8 @@ plt.show()
 
 ### Evidence
 ![](images/quiz_021_evidence.png)
-![img_1.png](img_1.png)
 *fig. 2* **Screenshot of output graph**
 
 ### Boolean Logic Problem
-![](images/quiz_021_bool.png)
+![](images/quiz_021_bool.jpeg)
 *fig. 3* **Working for given boolean logic problem**

@@ -1,3 +1,12 @@
+# Quiz 026
+<hr>
+
+### Prompt
+![](images/quiz_026_slide.png)
+*fig. 1* **Screenshot of quiz slides**
+
+### Solution
+```.py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -14,3 +23,12 @@ plt.plot(data["x"], data["y"])
 plt.title(data["title"], fontsize=15)
 plt.title("May's Repository", loc="right", fontsize=5)
 plt.show()
+```
+
+### Evidence
+![](images/quiz_026_evidence.png)
+*fig. 2* **Screenshot of output graph**
+
+### Base Conversion Problem
+![](images/quiz_026_base.jpeg)
+*fig. 3* **Working for given base conversion problem**

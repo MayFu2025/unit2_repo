@@ -10,4 +10,5 @@ while i<=10:
     i += 0.2
 
 plt.plot(x, y, marker='+') # Markers just to show that there are 100 points in the graph
+plt.title("May's Repository", fontsize=5, loc='right')
 plt.show()

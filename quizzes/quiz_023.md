@@ -19,13 +19,14 @@ while i<=10:
     i += 0.2
 
 plt.plot(x, y, marker='+') # Markers just to show that there are 100 points in the graph
+plt.title("May's Repository", fontsize=5, loc="right")
 plt.show()
 ```
 
 ### Evidence
-![](images/quiz_001_evidence.png)
+![](images/quiz_023_evidence.png)
 *fig. 2* **Screenshot of output graph**
 
-### Boolean Logic Problem
-![](images/quiz_001_bool.png)
-*fig. 3* **Working for given boolean logic problem**
+### Base Conversion Problem
+![](images/quiz_023_base.jpeg)
+*fig. 3* **Working for given base conversion problem**

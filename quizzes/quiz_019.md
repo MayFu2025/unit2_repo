@@ -32,5 +32,5 @@ print(get_truth2())
 *fig. 2* **Screenshot of output in console**
 
 ### Boolean Logic Problem
-![](images/quiz_019_bool.png)
+![](images/quiz_019_bool.jpeg)
 *fig. 3* **Working for given boolean logic problem**

@@ -23,8 +23,8 @@ for i in range(len(humidity)):
     time_model.append(t)
     humidity_model.append(m * t + b)
     t += 10
-plt.plot(time_model, humidity_model, color="gray")
-plt.text(1, 2, f"C(t)={m:.2f}t+{b:.2f}", fontsize=15)
-#TODO: trendline label doesn't show
 
+plt.plot(time_model, humidity_model, color="gray")
+plt.text(80, 50, f"h(t)={m:.2f}t+{b:.2f}", fontsize=10)
+plt.title("May's Repository", fontsize=5, loc="right")
 plt.show()
