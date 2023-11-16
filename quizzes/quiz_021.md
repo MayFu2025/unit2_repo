@@ -27,7 +27,8 @@ plt.show()
 
 ### Evidence
 ![](images/quiz_021_evidence.png)
-*fig. 2* **Screenshot of output in console**
+![img_1.png](img_1.png)
+*fig. 2* **Screenshot of output graph**
 
 ### Boolean Logic Problem
 ![](images/quiz_021_bool.png)

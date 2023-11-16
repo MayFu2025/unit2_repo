@@ -2,7 +2,7 @@
 <hr>
 
 ### Prompt
-![](images/quiz_001_slide.png)
+![](images/quiz_023_slide.png)
 *fig. 1* **Screenshot of quiz slides**
 
 ### Solution
@@ -24,7 +24,7 @@ plt.show()
 
 ### Evidence
 ![](images/quiz_001_evidence.png)
-*fig. 2* **Screenshot of output in console**
+*fig. 2* **Screenshot of output graph**
 
 ### Boolean Logic Problem
 ![](images/quiz_001_bool.png)

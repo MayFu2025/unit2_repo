@@ -9,4 +9,5 @@ def produce(n:int, m:int, s:int)-> float:
         out += f"|  {str(x).center(8)}  |  {f'{y:.2f}'.center(8)}  |\n"
     return out
 
+# Check that it works
 print(produce(n=5, m=3, s=2))
