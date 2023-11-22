@@ -5,7 +5,6 @@ import time
 questions= {
     "Today is a Monday": "No",
     "1+1=2": "Yes",
-    ""
 
 }
 
