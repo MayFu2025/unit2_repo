@@ -1,3 +1,5 @@
+# API part 1
+
 import requests
 import matplotlib.pyplot as plt
 import numpy as np
