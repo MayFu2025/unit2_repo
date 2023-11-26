@@ -20,3 +20,23 @@ def smoothing(x:list[int], size_window:int=5, overlap:float=1):
 
     return t, smooth_x
 
+def coefficient(x,y):
+    x_1 = x[0]
+    x_2 = x[1]
+    x_3 = x[2]
+    y_1 = y[0]
+    y_2 = y[1]
+    y_3 = y[2]
+
+    a = y_1/((x_1-x_2)*(x_1-x_3)) + y_2/((x_2-x_1)*(x_2-x_3)) + y_3/((x_3-x_1)*(x_3-x_2))
+
+    b = (-y_1*(x_2+x_3)/((x_1-x_2)*(x_1-x_3))
+         -y_2*(x_1+x_3)/((x_2-x_1)*(x_2-x_3))
+         -y_3*(x_1+x_2)/((x_3-x_1)*(x_3-x_2)))
+
+    c = (y_1*x_2*x_3/((x_1-x_2)*(x_1-x_3))
+        +y_2*x_1*x_3/((x_2-x_1)*(x_2-x_3))
+        +y_3*x_1*x_2/((x_3-x_1)*(x_3-x_2)))
+
+    return a,b,c
+
